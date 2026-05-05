@@ -1,39 +1,42 @@
-# 💳 SaaS Billing & Revenue Analytics
+# 💳 Billing & Revenue Analytics (SaaS Product Analysis)
 
 ## 🧠 Problem Statement
 
-SaaS companies rely on predictable recurring revenue, but often struggle with:
+Subscription-based businesses rely heavily on stable and predictable billing systems to maintain revenue growth. However, they often face operational and financial challenges such as:
 
-- High early-stage churn  
-- Low conversion from free to paid plans  
-- Revenue volatility driven by user engagement  
-- Limited visibility into what drives retention and monetization  
+- Billing inefficiencies leading to failed payments and revenue leakage  
+- High churn rates driven by user cancellations and poor retention  
+- Revenue instability caused by inconsistent user engagement  
+- Limited visibility into how product and marketing decisions impact billing outcomes  
+- Lack of predictive insights to anticipate financial risks such as churn or pricing changes  
 
-> How can we stabilize revenue, reduce churn, and improve customer lifetime value using data?
+These challenges directly affect revenue predictability, customer lifetime value, and business scalability.
 
 ---
 
 ## 🎯 Project Objective
 
-This project analyzes subscription, revenue, and user engagement data to:
+This project analyzes subscription, billing, and user engagement data to:
 
-- Evaluate Monthly Recurring Revenue (MRR) trends  
-- Measure churn and identify retention gaps  
-- Understand monetization across subscription plans  
-- Analyze the relationship between engagement and revenue  
-- Provide actionable recommendations to improve growth  
+- Monitor and evaluate Monthly Recurring Revenue (MRR) trends  
+- Identify churn patterns and potential revenue risks  
+- Assess billing performance across subscription plans  
+- Analyze the relationship between user engagement and revenue outcomes  
+- Perform scenario-based analysis to understand potential financial impact of churn and pricing changes  
+- Provide actionable recommendations to improve billing efficiency and reduce revenue loss  
 
 ---
 
 ## 🏢 Business Context
 
-In subscription-based businesses like **SaaS platforms** and companies such as :contentReference[oaicite:0]{index=0}:
+In subscription-driven companies such as :contentReference[oaicite:1]{index=1}:
 
-- Revenue depends on retaining users, not just acquiring them  
-- Small increases in churn can significantly impact revenue  
-- Engagement is often the leading indicator of retention  
+- Revenue is highly dependent on retention and billing success  
+- Small increases in churn or failed payments can significantly impact MRR  
+- Understanding billing behavior is critical for reducing revenue leakage  
+- Data-driven decision-making is required across billing, product, and marketing teams  
 
-This analysis focuses on identifying **revenue risks and growth opportunities**.
+This analysis simulates a real-world billing analytics environment focused on identifying revenue risks and improving financial performance.
 
 ---
 
@@ -44,109 +47,107 @@ This analysis focuses on identifying **revenue risks and growth opportunities**.
 **License:** CC0 Public Domain  
 
 ### Data Includes:
-- User subscriptions (Free, Basic, Pro)  
-- Revenue transactions  
-- Event logs (user activity)  
-- Country-level data  
+- User subscription records (Free, Basic, Pro)  
+- Billing and revenue transactions  
+- User event and engagement logs  
+- Geographic distribution of users and revenue  
 
 ---
 
 ## 📊 Key Metrics
 
 | Metric | Description |
-|-------|------------|
-| MRR | Monthly Recurring Revenue |
-| Churn Rate | Cancelled users ÷ active users |
+|--------|-------------|
+| MRR | Monthly Recurring Revenue from active subscriptions |
+| Churn Rate | Percentage of users cancelling subscriptions |
 | ARPU | Average Revenue Per User |
 | MAU | Monthly Active Users |
-| Plan Distribution | User & revenue share by plan |
-| Revenue by Country | Geographic revenue breakdown |
+| Revenue Leakage | Loss of revenue due to churn or billing failures |
+| Plan Performance | Revenue and user distribution across plans |
+| Engagement Rate | User activity level influencing retention |
 
 ---
 
 ## 📈 Key Insights
 
-### 1. Revenue Volatility Driven by Engagement
-- MRR peaked in February and dropped sharply in April  
-- Decline in MAU directly correlated with revenue loss  
-- Engagement is a leading driver of revenue stability  
+### 1. Revenue Instability Driven by Engagement
+- MRR fluctuates significantly based on user activity levels  
+- Declines in engagement directly correlate with revenue drops  
+- Engagement acts as an early indicator of billing performance  
 
 ---
 
-### 2. High Churn Risk
-- Monthly churn reached **26%**, far above SaaS benchmarks (~5–7%)  
-- Indicates weak onboarding and poor early retention  
+### 2. Elevated Churn Risk
+- Churn rates exceed typical SaaS benchmarks  
+- Early-stage user drop-off indicates onboarding and retention issues  
+- High churn creates instability in recurring revenue streams  
 
 ---
 
-### 3. Monetization Gap
-- Free plan dominates user acquisition  
-- Pro plan generates highest ARPU  
-- Low conversion suggests missed revenue opportunities  
+### 3. Monetization Imbalance
+- Free plan drives majority of user acquisition  
+- Paid plans generate disproportionate revenue contribution  
+- Conversion inefficiencies indicate missed monetization opportunities  
 
 ---
 
 ### 4. Revenue Concentration Risk
-- Canada contributes ~37.6% of revenue  
-- Heavy dependence on a single market increases risk  
+- Revenue heavily concentrated in specific regions  
+- Limited geographic diversification increases financial risk exposure  
 
 ---
 
 ## 💡 Business Recommendations
 
-### 🔹 Reduce Early Churn
-- Implement onboarding flows within first 30–90 days  
-- Use lifecycle emails and engagement triggers  
+### 🔹 Reduce Revenue Leakage
+- Improve billing reliability and payment success rates  
+- Monitor failed transactions and retry logic  
 
----
+### 🔹 Improve Retention
+- Strengthen onboarding and early lifecycle engagement strategies  
+- Focus on reducing churn within first 30–90 days  
 
-### 🔹 Improve Conversion to Paid Plans
-- Introduce upgrade incentives (discounts, feature gating)  
-- Highlight Pro plan value early in the user journey  
+### 🔹 Optimize Monetization Strategy
+- Increase conversion from free to paid plans  
+- Introduce targeted upgrade and pricing experiments  
 
----
-
-### 🔹 Stabilize Revenue Through Engagement
-- Focus on increasing MAU as a leading KPI  
-- Invest in retention strategies over pure acquisition  
-
----
-
-### 🔹 Diversify Revenue Sources
-- Expand acquisition efforts in underperforming regions  
-- Localize pricing or campaigns where needed  
+### 🔹 Enhance Predictive Analytics
+- Implement churn prediction models  
+- Use scenario analysis to forecast revenue impact of churn and pricing changes  
 
 ---
 
 ## 🚀 Expected Business Impact
 
-- Lower churn → more predictable MRR  
-- Higher ARPU through better plan conversion  
-- Improved customer lifetime value (LTV)  
-- Reduced revenue volatility  
+- Improved revenue predictability through reduced churn  
+- Increased ARPU via better plan conversion strategies  
+- Lower revenue leakage from billing inefficiencies  
+- Stronger alignment between engagement and revenue outcomes  
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- Revenue analytics (MRR, churn, ARPU)
-- Customer lifecycle analysis
-- Engagement-to-revenue correlation
-- SQL data modeling (CTEs, views)
-- Business insight generation
+- Billing and revenue analytics  
+- Churn and retention analysis  
+- Scenario-based financial modeling  
+- Subscription business KPI analysis  
+- Data-driven business recommendation design  
+- SQL-based data transformation and aggregation  
 
 ---
 
 ## 📂 Project Status
 
-🚧 In Progress:
-- Adding Mixpanel-style event analysis  
-- Building Power BI dashboard  
-- Extending retention and cohort analysis  
+In Progress:
+- Building churn segmentation analysis  
+- Adding scenario (what-if) modeling  
+- Developing Power BI dashboard for executive reporting  
+- Extending analysis into billing risk prediction  
 
 ---
 
 ## 👤 Author
 
 Data Analytics Portfolio Project  
-Focused on SaaS Analytics, Revenue Optimization, and Growth Strategy
+Focused on Billing Analytics, SaaS Revenue Optimization, and Risk Analysis
