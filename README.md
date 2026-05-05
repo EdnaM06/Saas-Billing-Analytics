@@ -1,39 +1,44 @@
-# 📊 SaaS Billing & Revenue Analytics (SQL Project)
+# 💳 SaaS Billing & Revenue Analytics
 
-## 🎯 Project Overview
+## 🧠 Project Overview
 
-This project analyzes subscription billing data from **January 2022 to June 2022** for a SaaS product to evaluate revenue performance, customer retention, and monetization efficiency.
+This project analyzes subscription billing data for a SaaS product to evaluate revenue performance, customer retention, and monetization efficiency.
 
-The goal was to simulate a real-world Billing / Revenue Analyst role by analyzing:
+The analysis simulates a real-world **Billing / Revenue Analyst role**, focusing on identifying revenue leakage, churn drivers, and growth opportunities.
 
-- Monthly Recurring Revenue (MRR)
-- Churn Rate
-- Average Revenue Per User (ARPU)
-- Subscription Plan Performance
-- Revenue Distribution by Country
-- Engagement-to-Revenue Correlation
+> How can we reduce churn, improve revenue stability, and optimize subscription performance?
 
 ---
 
-## 📁 Dataset
+## 🏢 Business Context
 
-**Source:** SaaS Product Dashboard Dataset – Kaggle  
+Subscription-based companies depend on:
+- Stable Monthly Recurring Revenue (MRR)
+- Low churn rates
+- Strong user engagement
+
+However, common challenges include:
+- High customer churn reducing revenue predictability  
+- Poor conversion from free to paid plans  
+- Revenue concentration across limited markets  
+- Weak onboarding leading to early user drop-off  
+
+This project focuses on identifying these issues and providing actionable solutions.
+
+---
+
+## 📊 Dataset
+
+**Source:** SaaS Product Dashboard Dataset (Kaggle)  
 **Author:** Philbert Chan  
-**License:** CC0 1.0 Public Domain  
+**License:** CC0 Public Domain  
 
-The dataset includes:
-- User subscription records
-- Plan information (Free, Basic, Pro)
-- Event logs
-- Country distribution
-- Revenue data
-
-### Data Preparation
-Data cleaning included:
-- Handling null subscription and cancellation dates
-- Removing duplicate user IDs
-- Standardizing date formats for monthly aggregation
-- Validating revenue fields for numeric consistency
+### Includes:
+- User subscription records  
+- Subscription plans (Free, Basic, Pro)  
+- Event logs (user engagement)  
+- Country-level data  
+- Revenue transactions  
 
 ---
 
@@ -43,68 +48,117 @@ Data cleaning included:
 - CTEs & Views
 - Data Cleaning & Transformation
 - Git & GitHub
+- *(Planned)* Mixpanel (event analytics)
+- *(Planned)* Power BI (dashboarding)
 
 ---
 
-## 📊 Key KPIs Analyzed
+## 📊 Key Metrics Analyzed
 
 | KPI | Description |
-|------|------------|
-| MRR | Monthly Recurring Revenue trend |
-| Churn Rate | Monthly customer attrition rate (Cancelled Users ÷ Active Users at Start of Month) |
+|-----|------------|
+| MRR | Monthly Recurring Revenue trends |
+| Churn Rate | Cancelled users ÷ active users |
 | ARPU | Average Revenue Per User |
-| Plan Distribution | User and revenue share by subscription plan |
-| Country Revenue | Revenue contribution by country |
 | MAU | Monthly Active Users |
+| Plan Distribution | Revenue and user breakdown by plan |
+| Country Revenue | Revenue contribution by region |
 
 ---
 
 ## 📈 Key Findings
 
-### 1️⃣ Revenue & MRR Trends
-- MRR peaked in **February 2022 ($520)**
-- MRR dropped significantly in April due to declining active users
-- Revenue showed strong correlation with active user levels
+### 1. Revenue & MRR Trends
+- MRR peaked in February 2022 ($520)
+- Significant decline observed in April due to reduced active users
+- Revenue is highly dependent on user activity levels
 
-### 2️⃣ Churn Analysis
-- Monthly churn reached **26% (June 2022)**
-- This exceeds typical SaaS industry benchmarks (~5–7%)
-- High churn indicates need for structured early-stage retention strategy
+---
 
-### 3️⃣ Plan Performance
-- Free plan has highest signup volume
+### 2. Churn Analysis
+- Churn reached **26% in June**
+- Far above SaaS benchmarks (~5–7%)
+- Indicates major retention issues, especially early in the user lifecycle
+
+---
+
+### 3. Plan Performance
+- Free plan dominates user acquisition
 - Pro plan generates highest ARPU
-- Opportunity exists to improve Pro plan adoption through upgrade incentives
+- Low conversion from Free → Pro suggests monetization gap
 
-### 4️⃣ Geographic Revenue
-- Canada contributes **37.58% of total revenue**
-- India shows lowest contribution
-- Revenue concentration risk identified due to geographic dependency
+---
 
-### 5️⃣ Engagement & Revenue Correlation
-- Stable MAU in early months aligned with higher MRR
-- Decline in MAU directly correlated with revenue drop
+### 4. Geographic Revenue Distribution
+- Canada contributes ~37.6% of total revenue
+- Revenue heavily concentrated in one region
+- Indicates geographic risk and lack of diversification
+
+---
+
+### 5. Engagement & Revenue Relationship
+- High MAU correlates strongly with higher MRR
+- Decline in engagement leads directly to revenue drop
+- Engagement is a leading indicator of revenue performance
 
 ---
 
 ## 💡 Business Recommendations
 
-- Introduce targeted upgrade campaigns to increase Pro plan conversion
-- Implement structured onboarding engagement campaigns to reduce churn within first 90 days
-- Replicate successful January acquisition strategies
-- Develop engagement initiatives to stabilize and grow MAU
+### 1. Reduce Early Churn
+- Implement onboarding flows targeting first 30–90 days  
+- Introduce engagement triggers (email, in-app prompts)  
+
+---
+
+### 2. Improve Monetization Strategy
+- Optimize Free → Pro conversion with targeted upgrade campaigns  
+- Introduce feature gating for premium value  
+
+---
+
+### 3. Stabilize Revenue Growth
+- Focus on increasing MAU through retention strategies  
+- Replicate high-performing acquisition periods  
+
+---
+
+### 4. Reduce Geographic Risk
+- Expand acquisition in underperforming regions  
+- Tailor pricing or campaigns by market  
+
+---
+
+## 🚀 Expected Business Impact
+
+If implemented:
+- Reduced churn rate → more stable MRR  
+- Increased ARPU through better plan conversion  
+- Improved customer lifetime value (LTV)  
+- More predictable revenue growth  
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- Subscription revenue modeling
-- Churn rate calculation using cohort-based logic
-- ARPU and MRR computation
-- Business KPI reporting
-- SQL data transformation using views and CTEs
-- Executive-level insight communication
+- Subscription revenue analysis (MRR, ARPU, churn)
+- Cohort-style churn analysis
+- Business KPI interpretation
+- SQL data modeling using CTEs and views
+- Translating data into actionable business decisions
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Status
+
+🚧 In Progress:
+- Adding Mixpanel-style event analysis  
+- Building Power BI dashboard  
+- Extending cohort and retention analysis  
+
+---
+
+## 👤 Author
+
+Data Analytics Portfolio Project  
+Focused on SaaS Analytics, Revenue Optimization, and Growth Strategy
